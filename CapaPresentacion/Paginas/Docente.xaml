@@ -1,0 +1,171 @@
+﻿<Window x:Class="CapaPresentacion.Paginas.Docente"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CapaPresentacion.Paginas"
+        mc:Ignorable="d"
+        Title="Docente" Height="450" Width="800">
+    <Grid>
+        <Image Margin="-1,-1,-5.4,-2" Source="/CapaPresentacion;component/Image5.png" Stretch="Fill" Opacity="0.6" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.03"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <TextBlock HorizontalAlignment="Left" Margin="338,171,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="68" Width="214" FontFamily="Square721 BT" TextAlignment="Center" FontSize="14" Text="Métodos" RenderTransformOrigin="-0.065,3.862" Background="#FFE89355"/>
+        <Rectangle Fill="#FFCBF178" HorizontalAlignment="Left" Height="420" Margin="712,0,0,0" Stroke="Black" VerticalAlignment="Top" Width="30" Opacity="0.7"/>
+
+        <Rectangle Fill="#FF73A20B" HorizontalAlignment="Left" Height="420" Margin="22,0,0,0" Stroke="Black" VerticalAlignment="Top" Width="60" Opacity="0.7"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="192,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="214" FontFamily="Square721 BT" TextAlignment="Center" FontSize="14" Text="Especialidad"/>
+        <TextBox x:Name="txtEstadoC" HorizontalAlignment="Left" Height="22" Margin="207,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="186" FontFamily="Square721 BT" FontSize="14" RenderTransformOrigin="0.5,0.5" Background="#FFCDC3EC" BorderBrush="#FF021E73">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0.063"/>
+                    <RotateTransform Angle="-0.156"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <Rectangle Fill="#FFCBF178" HorizontalAlignment="Left" Height="420" Stroke="Black" VerticalAlignment="Top" Width="144" Opacity="0.7"/>
+        <Label Content="DOCENTE"  HorizontalAlignment="Left" Height="40" Margin="-21,157,0,0" VerticalAlignment="Top" Width="150" FontFamily="DFPOP1-W9" FontSize="36" RenderTransformOrigin="0.496,0.214" Opacity="0.7" Foreground="#FF693838">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="1.092" ScaleX="0.915"/>
+                    <SkewTransform AngleX="0.091"/>
+                    <RotateTransform Angle="-89.336"/>
+                    <TranslateTransform X="-15.676" Y="17.359"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <TextBlock HorizontalAlignment="Left" Margin="244,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="17" Width="104" FontFamily="Square721 BT" TextAlignment="Center" FontSize="14" RenderTransformOrigin="0.5,0.5" Text="Estado Civil">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-0.05"/>
+                    <RotateTransform Angle="0.14"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform></TextBlock>
+        <TextBox x:Name="txtEspecialidad" HorizontalAlignment="Left" Height="25" Margin="208,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="189" FontFamily="Square721 BT" FontSize="14" RenderTransformOrigin="0.5,0.5" Background="#FFCDC3EC" BorderBrush="#FF021E73" Foreground="Black">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0.063"/>
+                    <RotateTransform Angle="-0.156"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <ComboBox HorizontalAlignment="Left" Margin="354,199,0,0" VerticalAlignment="Top" Width="183" Height="25" Foreground="#FF3854C8" BorderBrush="#FF3C8CCD" OpacityMask="#FFDBDEFF" FontFamily="Square721 BT" Cursor="None" Background="#FFB4CCEE" FontSize="16">
+            <Button Content="Asistir" Width="218" Background="#FFAED950" FontSize="18" Click="Button_Click_3"/>
+            <Button Content="Existir" Width="218" Background="#FFCBF178" FontSize="18" Click="Button_Click_4"/>
+            <Button Content="Enseñar" Width="218" Background="#FF92C02B" FontSize="18" Click="Button_Click_2"/>
+
+        </ComboBox>
+        <Button Content="Ver Datos" HorizontalAlignment="Left" Margin="536,344,0,0" VerticalAlignment="Top" Width="142" Height="25" FontSize="16" Background="#FFAED950" Click="Button_Click_1"/>
+        <Button Content="Terminar registro" HorizontalAlignment="Left" Margin="536,312,0,0" VerticalAlignment="Top" Width="142" Height="27" FontSize="16" Background="#FFE89355" Click="Button_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="550,278,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="108" FontFamily="Square721 BT" TextAlignment="Center" FontSize="16" Text="Opciones"/>
+        <Image Margin="-47,229,289.6,-38" Source="/CapaPresentacion;component/image-removebg-preview (1).png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <TextBlock HorizontalAlignment="Left" Margin="464,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="214" FontFamily="Square721 BT" TextAlignment="Center" FontSize="14" Text="Horario"/>
+        <TextBox x:Name="txtCantidadH" HorizontalAlignment="Left" Height="22" Margin="479,116,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="186" FontFamily="Square721 BT" FontSize="14" RenderTransformOrigin="0.5,0.5" Background="#FFCDC3EC" BorderBrush="#FF021E73">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0.063"/>
+                    <RotateTransform Angle="-0.156"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBlock HorizontalAlignment="Left" Margin="495,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="17" Width="153" FontFamily="Square721 BT" TextAlignment="Center" FontSize="14" RenderTransformOrigin="0.5,0.5" Text="Cantidad de horas">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-0.05"/>
+                    <RotateTransform Angle="0.14"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform></TextBlock>
+        <TextBox x:Name="txtHorario" HorizontalAlignment="Left" Height="25" Margin="480,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="189" FontFamily="Square721 BT" FontSize="14" RenderTransformOrigin="0.5,0.5" Background="#FFCDC3EC" BorderBrush="#FF021E73" Foreground="Black">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0.063"/>
+                    <RotateTransform Angle="-0.156"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBlock HorizontalAlignment="Left" Margin="495,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="17" Width="153" FontFamily="Square721 BT" TextAlignment="Center" FontSize="14" RenderTransformOrigin="0.5,0.5" Text="Cantidad de horas">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-0.05"/>
+                    <RotateTransform Angle="0.14"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="464,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="214" FontFamily="Square721 BT" TextAlignment="Center" FontSize="14" Text="Horario"/>
+        <TextBlock HorizontalAlignment="Left" Margin="192,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="214" FontFamily="Square721 BT" TextAlignment="Center" FontSize="14" Text="Especialidad"/>
+        <TextBlock HorizontalAlignment="Left" Margin="244,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="17" Width="104" FontFamily="Square721 BT" TextAlignment="Center" FontSize="14" RenderTransformOrigin="0.5,0.5" Text="Estado Civil">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-0.05"/>
+                    <RotateTransform Angle="0.14"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="338,171,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="27" Width="214" FontFamily="Square721 BT" TextAlignment="Center" FontSize="14" Text="Métodos" RenderTransformOrigin="-0.065,3.862"/>
+        <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="144" BorderBrush="#FFCDC3EC" Margin="0,23,0,0">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                    <GradientStop Color="#FFAED950" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+            <ComboBoxItem Background="#FFD8F29E" BorderBrush="#FF115F22" Selected="ComboBoxItem_Selected">
+                Actualizar
+            </ComboBoxItem>
+            <ComboBoxItem Background="#FFD8F29E" BorderBrush="#FF115F22" Selected="ComboBoxItem_Selected_5">
+                Agregar
+            </ComboBoxItem>
+            <ComboBoxItem Background="#FFD8F29E" BorderBrush="#FF115F22" Selected="ComboBoxItem_Selected_1">
+                Buscar
+            </ComboBoxItem>
+            <ComboBoxItem Background="#FFD6F19D" BorderBrush="#FF115F22" Selected="ComboBoxItem_Selected_2">
+                Eliminar
+            </ComboBoxItem>
+            <ComboBoxItem Background="#FFD6F19D" BorderBrush="#FF115F22" Selected="ComboBoxItem_Selected_3">
+                Listar
+            </ComboBoxItem>
+        </ComboBox>
+        <Label Content="Mantenimiento" HorizontalAlignment="Left" Margin="0,-2,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="144" Background="#FFC0EA30">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.163"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+
+    </Grid>
+</Window>

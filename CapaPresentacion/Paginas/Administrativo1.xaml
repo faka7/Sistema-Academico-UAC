@@ -1,0 +1,156 @@
+﻿<Window x:Class="CapaPresentacion.Paginas.Administrativo1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CapaPresentacion.Paginas"
+        mc:Ignorable="d"
+        Title="Administrativo" Height="450" Width="800">
+    <Grid Margin="0,0,-6.4,-0.4" Background="#FFFFF2C4">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="137*"/>
+            <RowDefinition Height="173*"/>
+        </Grid.RowDefinitions>
+        <Rectangle Fill="#FF9C6391" HorizontalAlignment="Left" Height="430" Margin="725,0,0,-10" Stroke="Black" VerticalAlignment="Top" Width="30" Opacity="0.7" Grid.RowSpan="2"/>
+
+        <Image Margin="-2,0,2,-3" Source="/CapaPresentacion;component/Image5.png" Stretch="Fill" Opacity="0.6" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.03"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <TextBlock HorizontalAlignment="Left" Margin="464,171,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="68" Width="214" FontFamily="Square721 BT" TextAlignment="Center" FontSize="14" Text="Métodos" RenderTransformOrigin="-0.065,3.862" Grid.RowSpan="2" Background="#FF93BDB3"/>
+
+        <Rectangle Fill="#FF9C6391" HorizontalAlignment="Left" Height="420" Margin="41,0,0,0" Stroke="Black" VerticalAlignment="Top" Width="60" Opacity="0.7" Grid.RowSpan="2"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="192,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="214" FontFamily="Square721 BT" TextAlignment="Center" FontSize="14" Text="Cargo"/>
+        <TextBox x:Name="txtHorario" HorizontalAlignment="Left" Height="22" Margin="207,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="186" FontFamily="Square721 BT" FontSize="14" RenderTransformOrigin="0.5,0.5" Background="#FFB2CAC4" BorderBrush="#FF021E73">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0.063"/>
+                    <RotateTransform Angle="-0.156"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBlock HorizontalAlignment="Left" Margin="244,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="17" Width="104" FontFamily="Square721 BT" TextAlignment="Center" FontSize="14" RenderTransformOrigin="0.5,0.5" Text="Horario">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-0.05"/>
+                    <RotateTransform Angle="0.14"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform></TextBlock>
+        <Rectangle Fill="#FF9C6391" HorizontalAlignment="Left" Height="420" Stroke="Black" VerticalAlignment="Top" Width="161" Opacity="0.7" Grid.RowSpan="2"/>
+        <TextBox x:Name="txtCargo" HorizontalAlignment="Left" Height="25" Margin="208,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="189" FontFamily="Square721 BT" FontSize="14" RenderTransformOrigin="0.5,0.5" Background="#FFB2CAC4" BorderBrush="#FF021E73" Foreground="Black">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0.063"/>
+                    <RotateTransform Angle="-0.156"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <ComboBox HorizontalAlignment="Left" Margin="480,13.4,0,0" VerticalAlignment="Top" Width="183" Height="25" Foreground="#FF3854C8" BorderBrush="#FF3C8CCD" OpacityMask="#FFDBDEFF" FontFamily="Square721 BT" Cursor="None" Background="#FFB4CCEE" FontSize="16" Grid.Row="1">
+            <Button Content="Asistir" Width="218" Background="#FFAED950" FontSize="18" Click="Button_Click_4"/>
+            <Button Content="Existir" Width="218" Background="#FFCBF178" FontSize="18" Click="Button_Click_5"/>
+            <Button Content="Gestionar" Width="218" Background="#FF92C02B" FontSize="18" Click="Button_Click_2"/>
+            <Button Content="Elaborar" Width="218" Background="#FF92C02B" FontSize="18" Click="Button_Click_3"/>
+
+        </ComboBox>
+        <Button Content="Ver Datos" HorizontalAlignment="Left" Margin="536,153.4,0,0" VerticalAlignment="Top" Width="142" Height="25" FontSize="16" Grid.Row="1" Background="#FFD483C5" Click="Button_Click"/>
+        <Button Content="Terminar registro" HorizontalAlignment="Left" Margin="536,112.4,0,0" VerticalAlignment="Top" Width="142" Height="27" FontSize="16" Grid.Row="1" Background="#FF598E81" Click="Button_Click_1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="555,78.4,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="108" FontFamily="Square721 BT" TextAlignment="Center" FontSize="16" Text="Opciones" Grid.Row="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="555,78.4,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="108" FontFamily="Square721 BT" TextAlignment="Center" FontSize="16" Text="Opciones" Grid.Row="1" RenderTransformOrigin="0.5,0.5">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="1079.923"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="464,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="214" FontFamily="Square721 BT" TextAlignment="Center" FontSize="14" Text="Sueldo"/>
+        <TextBox x:Name="txtTipoC" HorizontalAlignment="Left" Height="22" Margin="479,116,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="186" FontFamily="Square721 BT" FontSize="14" RenderTransformOrigin="0.5,0.5" Background="#FFB2CAC4" BorderBrush="#FF021E73">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0.063"/>
+                    <RotateTransform Angle="-0.156"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBlock HorizontalAlignment="Left" Margin="495,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="17" Width="153" FontFamily="Square721 BT" TextAlignment="Center" FontSize="14" RenderTransformOrigin="0.5,0.5">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-0.05"/>
+                    <RotateTransform Angle="0.14"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform><Run Text="Tipo de contrato"/><LineBreak/><Run/></TextBlock>
+        <TextBox x:Name="txtSueldo" HorizontalAlignment="Left" Height="25" Margin="480,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="189" FontFamily="Square721 BT" FontSize="14" RenderTransformOrigin="0.5,0.5" Background="#FFB2CAC4" BorderBrush="#FF021E73" Foreground="Black">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0.063"/>
+                    <RotateTransform Angle="-0.156"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBlock HorizontalAlignment="Left" Margin="464,172,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="27" Width="214" FontFamily="Square721 BT" TextAlignment="Center" FontSize="14" Text="Métodos" RenderTransformOrigin="-0.065,3.862" Grid.RowSpan="2"/>
+        <Label Content="ADMINISTRATIVO"  HorizontalAlignment="Left" Height="39" Margin="-64,10.4,0,0" VerticalAlignment="Top" Width="272" FontFamily="DFPOP1-W9" FontSize="36" RenderTransformOrigin="0.496,0.214" Opacity="0.7" Grid.Row="1" Foreground="White">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="1.092" ScaleX="0.915"/>
+                    <SkewTransform AngleX="0.091"/>
+                    <RotateTransform Angle="-90.334"/>
+                    <TranslateTransform X="-15.676" Y="17.359"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="161" BorderBrush="#FFCDC3EC" RenderTransformOrigin="0.5,0.5" Margin="0,25,0,0">
+            <ComboBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.118"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </ComboBox.RenderTransform>
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                    <GradientStop Color="#FFAED950" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+            <ComboBoxItem Background="#FFD8F29E" BorderBrush="#FF115F22" Selected="ComboBoxItem_Selected">
+                Actualizar
+            </ComboBoxItem>
+            <ComboBoxItem Background="#FFD8F29E" BorderBrush="#FF115F22" Selected="ComboBoxItem_Selected_1">
+                Agregar
+            </ComboBoxItem>
+            <ComboBoxItem Background="#FFD8F29E" BorderBrush="#FF115F22" Selected="ComboBoxItem_Selected_2">
+                Buscar
+            </ComboBoxItem>
+            <ComboBoxItem Background="#FFD6F19D" BorderBrush="#FF115F22" Selected="ComboBoxItem_Selected_3">
+                Eliminar
+            </ComboBoxItem>
+            <ComboBoxItem Background="#FFD6F19D" BorderBrush="#FF115F22" Selected="ComboBoxItem_Selected_4">
+                Listar
+            </ComboBoxItem>
+        </ComboBox>
+        <Label Content="Mantenimiento" HorizontalAlignment="Left" VerticalAlignment="Top" Width="161" Background="#FFD7F39F" FontFamily="Square721 BT"/>
+        <Image Margin="161,149,354,-10" Source="/CapaPresentacion;component/image-removebg-preview (4).png" Stretch="Fill" Grid.RowSpan="2"/>
+    </Grid>
+</Window>

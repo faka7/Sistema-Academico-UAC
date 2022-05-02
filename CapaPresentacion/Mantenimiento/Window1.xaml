@@ -1,0 +1,30 @@
+﻿<Window x:Class="CapaPresentacion.Mantenimiento.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CapaPresentacion.Mantenimiento"
+        mc:Ignorable="d"
+        Title="Mantenimiento general" Height="450" Width="800">
+    
+    <Grid Background="#FFEAE5FF">
+       
+        
+        <Menu Margin="0,0,-0.4,392" FontFamily="Square721 BT" FontSize="18" Background="#FF8BA5FF" TextOptions.TextHintingMode="Animated">
+
+            <MenuItem Header="_Alumno" Click="MenuItem_Click_1" Background="#FFE3F1BA"/>
+
+            <Separator></Separator>
+            <MenuItem Header="_Docente" Click="MenuItem_Click_2" Background="#FFFDD8F6"/>
+            <Separator></Separator>
+            <MenuItem Header="_Administrativo" Click="MenuItem_Click_3" Background="#FFC1EBDA"/>
+            <Separator></Separator>
+            <MenuItem Header="_Ayuda" Click="MenuItem_Click_4" Background="#FFFCDC8B"/>
+            <Separator></Separator>
+
+        </Menu>
+    </Grid>
+    
+        
+        
+</Window>

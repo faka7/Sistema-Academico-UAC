@@ -1,0 +1,6 @@
+C:\Users\lol23\source\repos\SistemaAcademicoUAC1\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\lol23\source\repos\SistemaAcademicoUAC1\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\lol23\source\repos\SistemaAcademicoUAC1\CapaNegocio\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+C:\Users\lol23\source\repos\SistemaAcademicoUAC1\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\lol23\source\repos\SistemaAcademicoUAC1\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\lol23\source\repos\SistemaAcademicoUAC1\CapaNegocio\obj\Debug\CapaNegocio.pdb
